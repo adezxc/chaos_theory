@@ -77,7 +77,7 @@ class App(tk.Frame):
         image_array = np.array(cropped_image)
         height, width = image_array.shape[0], image_array.shape[1]
 
-        square_size = 5
+        square_size = 3
         squares = []
         for i in range(0, height, square_size):
             for j in range(0, width, square_size):
